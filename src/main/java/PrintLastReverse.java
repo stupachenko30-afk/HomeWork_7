@@ -1,10 +1,10 @@
 public class PrintLastReverse {
 
     public static void printLastReverse(String s) {
-        String[] words = s.split(" ");
+        String[] w = s.split(" ");
 
-        for (int i = words.length - 1; i >= 0; i--) {
-            String word = words[i];
+        for (int i = w.length - 1; i >= 0; i--) {
+            String word = w[i];
             System.out.print(word.charAt(word.length() - 1));
         }
 
