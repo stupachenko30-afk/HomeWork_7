@@ -4,8 +4,8 @@ public class PrintLastReverse {
         String[] w = s.split(" ");
 
         for (int i = w.length - 1; i >= 0; i--) {
-            String word = w[i];
-            System.out.print(word.charAt(word.length() - 1));
+            String str = w[i];
+            System.out.print(str.charAt(str.length() - 1));
         }
 
         System.out.println();
