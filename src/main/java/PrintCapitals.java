@@ -6,8 +6,8 @@ public class PrintCapitals {
     public static void printCapitals(String s) {
         String[] w = s.split(" ");
 
-        for (String word : w) {
-            System.out.print(word.charAt(0));
+        for (String str : w) {
+            System.out.print(str.charAt(0));
         }
 
         System.out.println();
