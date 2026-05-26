@@ -2,7 +2,7 @@ public class LongIndex {
 
     public static void main(String[] args) {
         System.out.println(longestBlockIndex("ccbbbdddda"));}
-
+// Делал с помощью gpt . Сам не смог разобраться(((
 
     public static int longestBlockIndex(String s) {
         int maxStart = 0;
